@@ -1,81 +1,3 @@
-# import streamlit as st
-# import pandas as pd
-# import matplotlib.pyplot as plt
-# df = pd.read_csv('londonciki_public_survey.csv')
-#
-# def show_measure_page():
-#     st.title("Pyramid Poverty Scale")
-#     st.write("""### We need some information to Measure Poverty status """)
-#     st.title(""" Pyramid Poverty Scale """)
-#
-# st.write("""### We need some information to Measure Poverty status """)
-#
-#
-# education = (
-#              40,
-#              70,
-#               90,
-#              )
-#
-# HealthcareStatus = (
-#     60,
-#     80,
-#     100,
-# )
-#
-# Location = st.selectbox("Location:",("Location",'London-Ciki'))
-#
-# Mpi = st.slider("Multidimensional poverty index", 0.1,0.6,1.0)
-#
-# Education  = st.selectbox("Education",('40%','70%', '90%'))
-# Healthcare  = st.selectbox("Healthcare",('60%', '80%', '100%'))
-# income = st.text_input("Income", "")
-#
-# html_background = """
-#  <style>
-#  body{
-#
-#  background-image: url("visualize.png");
-#  background-repeat: no-repeat;
-#  background-attachment: fixed;
-#  background-size: 100 100%;
-#  </style>
-# """
-#
-#
-# html_temp = """
-#       <div style="background-image:url("visualize.png"); size: cove">
-#       <div style="background-color:#025246 ;padding: 10px">
-#        <h2 style="color:white;text-align:center;">Poverty Measurement ML App(Nigeria in respect of London Ciki)</h2>
-#        </div>
-#      """
-#
-#
-#
-#
-# safe_html="""
-#        <div style=background-color:green;padding:10px >
-#         <h2 style="color:white;text-align:center;"> Status above the poverty line , safe line </h2>
-#         </div>
-#     """
-#
-#
-# danger_html="""
-#         <div style=background-color:red;padding:10px >
-#         <h2 style="color:black;text-align:center;"> Status below the Poverty line , Danger alert </h2>
-#         </div>
-#      """
-#
-#
-# if st.button("Measure/Scale"):
-#     output=income("income","education","healthcare","MPi")
-#     st.success('the Status of Poverty is {}'.format(output))
-#
-#
-# if income ==60000:
-#          st.markdown(danger_html,unsafe_allow_html=True)
-# else:
-#      st.markdown(safe_html,unsafe_allow_html=True)
 
 
 # ml.py(testing the  model)
@@ -168,21 +90,6 @@ def show_measure_page():
             st.markdown(safe_html,unsafe_allow_html=True)
 
 
-       # footer1_html = """
-       #       <div style=font-size:italic;padding:10px>
-       #       <h2 style=color:"black;text-align:center;">Developed by MGT<h2>
-       #       <div>
-       # """
-       # st.markdown(footer1_html,unsafe_allow_html=True)
-       # footer2_html = """
-       #    <div style=font-size:italic;padding:10px>
-       #       <h2 style=color:"black;text-align:center;">© University of Maiduguri, 2023<h2>
-       #       <div>
-       # """
-       # st.markdown(footer2_html,unsafe_allow_html=True)
-
-    # st.write("Developed by MGT")
-    # st.write("© University of Maiduguri,2023")
 
 if __name__=='__show_measure_page__':
      show_measure_page()

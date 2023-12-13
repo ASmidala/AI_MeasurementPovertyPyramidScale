@@ -8,7 +8,7 @@ df = pd.read_csv("londonciki_public_survey.csv")
 
 
 
-# @st.cache_data(experimental_allow_widgets=True)
+@st.cache_data
 def show_explore_page():
 
     st.title("Explore Pyramid Poverty Scale ")
@@ -21,28 +21,6 @@ def show_explore_page():
         """
     )
 
-# plt.plot(,label="AUC")
-# plt.title('income and population ,londonciki')
-# plt.ylabel('population')
-# plt.xlabel('income')
-# plt.legend(loc=4)
-
-
-
-
-
-# data = df["Population","income",].value_counts()
-# data = pd.read_csv("londonciki_public_survey3.csv")
-# data = np.array(data)
-#
-# fig1, ax1 = plt.subplots()
-# ax1.pie(data, labels=data.index, autopct="%1.1f%%", shadow=True, startangle=90)
-# ax1.axis("equal")  # Equal aspect ratio ensures that pie is drawn as a circle.
-
-# st.write("""#### Number of Data from different population SampleDetermination""")
-# #
-# st.pyplot(fig1)
-#
 
 
 
@@ -73,21 +51,6 @@ def show_explore_page():
     data = df.groupby(["income"])["Population"].std().sort_values(ascending=True)
     st.line_chart(data)
 
-# st.write(
-#     """
-#     mean area chat of income based of londonciki
-#     """
-# )
-# data = df.groupby(["income"])["Population"].mean().sort_values(ascending=True)
-# st.area_chart(data)
-#
-# #
-# data = df.groupby(["income"])["Population"].mean().sort_values(ascending=True)
-# st.area_chart(data)
-#
-# st.pyplot(df)
-
-    # st.scatter_chart(data)
 
     st.write(
         """
@@ -128,20 +91,5 @@ def show_explore_page():
 
 
 
-# import matplotlib.pyplot as plt
-# labels = 'From','Hogs','Dogs','Logs'
-# sizes = [15, 30, 45, 10]
-# fig, ax = plt.subplots()
-# ax.pie(sizes, labels=labels)
-#
-# fig, ax = plt.subplots()
-# ax.pie(sizes, labels=labels, autopct='%1.1f%%')
-#
-#
 
 
-
-    # st.write("Developed by MGT")
-    # st.write("© University of Maiduguri,2023")
-    #
-    #
