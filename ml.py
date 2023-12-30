@@ -27,4 +27,4 @@ else:
 
 
 st.write("Developed by MGT")
-st.write("© University of Maiduguri,2023")
+st.write("© Department of Economics,University of Maiduguri,2023")
