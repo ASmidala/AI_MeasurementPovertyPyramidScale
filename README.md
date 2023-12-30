@@ -1,3 +1,3 @@
 # AI_MeasurementPovertyPyramidScale
-# this is a project research that conduct and used artificial intelliugence where the model of prediction was used to measure povery in london ciki, Nigeria.
-u
+# This is a Project Research that Conducted and Used Artificial Intelliugence where the Model of Prediction Through Probability was Used to Measure Povery in London ciki, Nigeria.
+# The work of Abubakar Saidu Midala under Supervisory of Professor Musa Jibrin Talba, at Co University of Maiduguri. 
