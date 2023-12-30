@@ -8,7 +8,7 @@ df = pd.read_csv("londonciki_public_survey.csv")
 
 
 
-@st.cache_data
+# @st.cache_data
 def show_explore_page():
 
     st.title("Explore Pyramid Poverty Scale ")
