@@ -1,13 +1,14 @@
 import streamlit as st
 
-st.write("""
-PyramidPovertyScale (PPS)
+def show_documentation_page():
+   st.write("""
+        PyramidPovertyScale (PPS)
 
-These Artificial Intelligence has a two phase which are:
-1.	The Measure Page
-2.	The Explore Page
+   These Artificial Intelligence has a two phase which are:
+   1.	The Measure Page
+   2.	The Explore Page
 
-The Measure is dealing with how you can use it to measure poverty in concept of microeconomics or individual concept meanwhile to provide requirements data the he AI or  ML will decide the status of the person in regard of poverty , and MPI and healthcare status of individual or at whole.
+   The Measure is dealing with how you can use it to measure poverty in concept of microeconomics or individual concept meanwhile to provide requirements data the he AI or  ML will decide the status of the person in regard of poverty , and MPI and healthcare status of individual or at whole.
 e.g. his income, level of multidimensional poverty index (mpi) and the Healthcare status. 
 
 While the Explore phase is dealing with additional information regarding the status level of poverty using some statistical parameters/experiment and computer vision imagery.
@@ -36,6 +37,4 @@ https://pyramidpovertyscale.onrender.com
 
 
 """)
-st.write("""
-         https://pyramidpovertyscale1.onrender.com
-""")
+
