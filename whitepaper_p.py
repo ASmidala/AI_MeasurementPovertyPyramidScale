@@ -71,7 +71,7 @@ def show_whitepaper_page():
   Now the PPS is using MACHINE LEARNING Models Algorithms of prediction and it is determine the outcome through the parameters of statistical Probability. 
   The measure/scaling algorithm exactly this way if output is greater than 0.5 then the outcome will be danger line, below the poverty line else it is a safe line, absent of poverty.
   
-   Supervised by Professor Musa Jibrin Talba 
+   Supervised by Professor Musa Jibrin Talba, 
    Developer Abubakar Saidu Midala 
    
   Click the link or copy and paste it in browser u can have access to the Artificial intelligence web application here
